@@ -1,0 +1,214 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Applied Project #1
+\end_layout
+
+\begin_layout Author
+Matthew Dennahower
+\begin_inset Newline newline
+\end_inset
+
+Sumair Khoja 
+\begin_inset Newline newline
+\end_inset
+
+Tselmuun Tserenkhuu 
+\begin_inset Newline newline
+\end_inset
+
+Jiushen Zhang
+\end_layout
+
+\begin_layout Subsubsection*
+In the paper, the authors estimated their model using U.S.
+ quarterly data spanning the period 1967:Q1 to 2003:Q1.
+ Based on their estimation the coefficient of persistence of habit estimated
+ is 0.86.
+ Please see below our matrix of correlation coefficients and the impulse
+ response functions using the aforementioned phi value.
+\end_layout
+
+\begin_layout Section*
+Part 2
+\end_layout
+
+\begin_layout Subsubsection*
+Question B) 
+\end_layout
+
+\begin_layout Subsubsection*
+By comparing our results of the matrix of correlation coefficients of the
+ endogenous variables when the habit persistence is 0.86 and for a model
+ with no consumption habit, we can see that the correlation coefficient
+ between Y and C is lower for the
+\end_layout
+
+\begin_layout Subsubsection*
+former case.
+ Specifically:
+\end_layout
+
+\begin_layout Subsubsection*
+With habit persistence: 
+\begin_inset Formula $corr(Y_{t},C_{t})=0.9338$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+With no habit persistence: 
+\begin_inset Formula $corr(Y_{t},C_{t})=0.9681$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+The reason for the above result is that with habit persistence 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ is now influenced by not only 
+\begin_inset Formula $C_{t}$
+\end_inset
+
+ but also 
+\begin_inset Formula $C_{t-1}$
+\end_inset
+
+.
+ But without habit persistence 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ is not affected by 
+\begin_inset Formula $C_{t-1}$
+\end_inset
+
+.
+ Thus, we expect the correlation coefficient to be smaller for the model
+ with habit persistence.
+\end_layout
+
+\begin_layout Subsubsection*
+Question C)
+\end_layout
+
+\begin_layout Subsubsection*
+The impulse response fuctions for the model without habit persistence (phi=0)
+ and the model with habit persistence (phi=0.86) are rather similar with
+ small differences particularly in the graphs of Y and C.
+ For instance, the model with habit persistence takes more periods for the
+ impulse response function of C to reach its peak whereas the model without
+ habit persistence reaches this peak relatively quicker.
+ This is intuitive as with habit persistence the value of 
+\begin_inset Formula $C_{t}$
+\end_inset
+
+ will depend on 
+\begin_inset Formula $C_{t-1}$
+\end_inset
+
+ and thus be more resistant to changes in the system.
+ This result follows for 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ since 
+\begin_inset Formula $C_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ are highly positively correlated as shown above.
+ Therefore, it will take more periods for the impulse response function
+ of 
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ to reach its peak in the model with habit persistence as opposed to the
+ model without habit persistence.
+ 
+\end_layout
+
+\begin_layout Standard
+*See the attached pages for Figures 1-4 regarding the matrices of correlation
+ and impulse response functions*
+\end_layout
+
+\end_body
+\end_document
